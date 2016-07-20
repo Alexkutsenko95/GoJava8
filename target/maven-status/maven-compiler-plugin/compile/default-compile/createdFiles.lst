@@ -1,0 +1,14 @@
+com\kutsenko\domain\Category.class
+com\kutsenko\domain\Reward.class
+com\kutsenko\controller\QuestionController.class
+com\kutsenko\controller\CategoryController.class
+com\kutsenko\domain\Question.class
+com\kutsenko\domain\Quote.class
+com\kutsenko\dao\CategoryDao.class
+com\kutsenko\rest\CategoryRest.class
+com\kutsenko\domain\Project.class
+com\kutsenko\domain\Investment.class
+com\kutsenko\controller\ProjectController.class
+com\kutsenko\dao\QuoteDao.class
+com\kutsenko\dao\ProjectDao.class
+com\kutsenko\controller\InvestmentController.class

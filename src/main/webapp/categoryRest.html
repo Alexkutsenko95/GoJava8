@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>REST</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+ 
+<!-- Javascript -->
+<script>
+$(document).ready(function () {
+ $.ajax({
+  type: "GET",
+  url: "http://localhost:8080/kickstarter/rest/category/1",
+  success: function (data) {
+   $("#id").text(data.id);
+   $("#name").text(data.name)
+  }
+ });
+});
+</script>
+ 
+<div>
+ <h1>Category</h1>
+    <div>Id: <span id="id">{{id}}</span></div>
+ <div>Name: <span id="name">{{name}}</span></div>
+</div>
+ 
+</body>
+</html>
